@@ -55,3 +55,56 @@ export const MainImage = styled.div`
     margin: -120px auto;
 
 `;
+
+export const CardsTitle = styled.div`
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 150px;
+
+    > h1{
+        color: var(--secondary);
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    > h2 {
+        color: #111;
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 40px;
+    }
+`;
+
+export const Cards = styled.div`
+    max-width: 1080px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+`;
+
+export const Card = styled.div`
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+`;
+
+export const CardTitle = styled.div`
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+
+    > p {
+        color: var(--button);
+        font-weight: bold;
+        margin-left: 16px;
+    }
+`;
+
+export const CardText = styled.p`
+    color: #666;
+    max-width: 250px;
+`;
+
+
+
