@@ -6,7 +6,7 @@ import DogImage from '../../assets/img/duotone.png';
 
 
 export const Container = styled.div`
-    width: 80%;
+    width: 100%;
     height: 800px;
     margin: 0 auto;
     background-image: url(${DogImage});

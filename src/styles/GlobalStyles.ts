@@ -12,6 +12,7 @@ export default createGlobalStyle`
         font-family: 'Roboto', sans-serif;
         max-height: 100vh;
         max-width: 100vw;
+        background-color: var(--background);
     }
 
     :root{
@@ -19,6 +20,7 @@ export default createGlobalStyle`
         --gray: #4B4B4B;
         --primary: #25CEC9;
         --secondary: #484C9A;
+        --background: #F5F5F5;
     }
 
 `;
