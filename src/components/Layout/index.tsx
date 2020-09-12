@@ -4,6 +4,7 @@ import Banner from '../Banner';
 import Main from '../Main';
 import CalltoAction from '../CalltoAction';
 import Card from '../Card';
+import Form from '../Form';
 
 const Layout:React.FC = () => {
     return (
@@ -12,6 +13,7 @@ const Layout:React.FC = () => {
         <Main />
         <CalltoAction />
         <Card />
+        <Form />
         </>
     )
 }
