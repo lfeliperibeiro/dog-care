@@ -1,8 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    background-color: var(--background);
-    margin-top: 50px;
+   margin-top: 50px;
 
 `;
 
