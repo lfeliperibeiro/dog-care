@@ -7,7 +7,7 @@ export default createGlobalStyle`
         box-sizing: border-box;
     }
 
-    html, #root{
+    body, html, #root{
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
         font-family: 'Roboto', sans-serif;
         max-height: 100vh;
