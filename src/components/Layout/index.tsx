@@ -5,6 +5,8 @@ import Main from '../Main';
 import CalltoAction from '../CalltoAction';
 import Card from '../Card';
 import Form from '../Form';
+import Testimonials from '../Testimonials';
+
 
 const Layout:React.FC = () => {
     return (
@@ -14,6 +16,7 @@ const Layout:React.FC = () => {
         <CalltoAction />
         <Card />
         <Form />
+        <Testimonials />
         </>
     )
 }
