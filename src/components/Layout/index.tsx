@@ -6,6 +6,7 @@ import CalltoAction from '../CalltoAction';
 import Card from '../Card';
 import Form from '../Form';
 import Testimonials from '../Testimonials';
+import ClientBox from '../ClientBox';
 
 
 const Layout:React.FC = () => {
@@ -17,6 +18,7 @@ const Layout:React.FC = () => {
         <Card />
         <Form />
         <Testimonials />
+        <ClientBox />
         </>
     )
 }
